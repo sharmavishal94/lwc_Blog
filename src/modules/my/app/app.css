@@ -33,7 +33,7 @@
 img {
     max-width: 150px;
 }
-
-.greeting {
-    height: 75px;
+.menu-item {
+    display: inline;
+    padding: 1em;
 }

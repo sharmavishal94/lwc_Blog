@@ -4,7 +4,8 @@
     "author": "Vishal",
     "bugs": "https://github.com/Vishal/blog/issues",
     "dependencies": {
-        "lwc-services": "^1.2.2"
+        "lwc-services": "^1.2.2",
+        "navigo": "^7.1.2"
     },
     "devDependencies": {
         "husky": "^2.7.0",

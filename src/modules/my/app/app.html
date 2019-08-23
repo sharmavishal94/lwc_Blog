@@ -1,15 +1,21 @@
 <template>
     <div>
-        <my-nav ></my-nav>
+        <ul>
+            <template for:each={menuItems} for:item="menuItem">
+                <li
+                    key={menuItem.location}
+                    class="menu-item"
+                    href={menuItem.location}
+                    onclick={handleMenuItemClick}
+                >
+                    {menuItem.title}
+                </li>
+            </template>
+        </ul>
     </div>
-
-    
 
     <!-- Page code -->
     <div class="center">
-        <div class="container">
-            
-        </div>
-       
+        <div class="container" lwc:dom="manual"></div>
     </div>
 </template>
